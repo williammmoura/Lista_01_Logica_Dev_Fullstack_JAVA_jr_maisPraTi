@@ -49,11 +49,17 @@ O programa calcula o fatorial de um número fornecido pelo usuário utilizando u
 ### 15. Sequência de Fibonacci
 Este exercício gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop `for`.
 
-## Como Executar os Exercícios
+## Como Executar
 
-1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema.
-2. Clone este repositório para o seu computador.
-3. Navegue até o diretório onde o repositório foi clonado.
-4. Execute cada exercício individualmente usando o comando:
+1. **Pré-requisitos:** Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+2. **Instalação:** Navegue até o diretório onde os arquivos dos exercícios estão localizados e instale o pacote `prompt-sync`:
    ```bash
-   node nome_do_arquivo.js
+   npm install prompt-sync
+
+## Execução
+
+Para executar qualquer um dos exercícios, abra o terminal, navegue até o diretório do arquivo desejado e utilize o comando:
+
+```bash
+node nome_do_arquivo.js
